@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Book a class</title>
+    <link href="../assets/css/StyleSheet1.css" rel="stylesheet">
+</head>
+<body>
+
+<h1>Book a class.</h1>
+<p>All classes are £6.</p>
+<p>All classes run from 9am until 5pm.</p>
+<p>Enter your details below and a member of our team will be in touch.</p>
+
+
+<form>
+    <label>
+        <input placeholder="Name*" required type="text"> <br/>
+
+        <input placeholder="Email*" required type="text"> <br/>
+
+        <input placeholder="Phone number*" required type="number"> <br/>
+
+        <input required type="datetime-local"> <br/>
+    </label>
+    Select the class you want to book. <br/>
+    <select>
+        <option disabled="disabled" selected="selected" value="Select one">Select one</option>
+        <option value="Pump">Pump</option>
+        <option value="Yoga">Yoga</option>
+        <option value="Spin">Spin</option>
+        <option value="Pilates">Pilates</option>
+        <option value="Boxercise">Boxercise</option>
+    </select> <br/>
+    <button id="submit-button" type="submit">Submit</button>
+
+</form>
+</body>
+</html>

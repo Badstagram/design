@@ -1,0 +1,20 @@
+.main {
+    background: darkslategray;
+    color: springgreen;
+}
+
+.membership-info {
+    font-size: 20px;
+}
+
+#membership-form {
+    align-content: center;
+    margin-left: 0;
+}
+
+
+#logo {
+    width: 150px;
+    height: 99px;
+
+}

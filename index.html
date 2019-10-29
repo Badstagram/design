@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <title>GetInShape</title>
-    <link href="assets/StyleSheet1.css" rel="stylesheet">
-    <script src="assets/js/displaydate.js" type="text/javascript"></script>
+    <link href="assets/css/StyleSheet1.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <script src="assets/js/displaydate.js"></script>
 </head>
 <body id="main" onload="alert(`Welcome to GetInShape!
-The current date is ${getDate(new Date())}`)">
+The current date is ${getDate()}`)">
 
 <img id="logo" src="assets/logo2.png">
 <h1 id="welcome-heading">GetInShape</h1>
@@ -28,20 +28,20 @@ The current date is ${getDate(new Date())}`)">
 
         <button class="button1" onclick="document.location.href = `purchase/gymmembership.html`">Join the gym
         </button>
-        <button class="button1" onclick="document.location.href = `/purchase/daypass.html`">Buy a day pass
+        <button class="button1" onclick="document.location.href = `purchase/daypass.html`">Buy a day pass
         </button>
-        <button class="button1" onclick="document.location.href = `/book/class.html`">Book a class</button>
-        <button class="button1" onclick="document.location.href = `/book/personaltrainer.html`">Book a personal
+        <button class="button1" onclick="document.location.href = `/design/book/class.html`">Book a class</button>
+        <button class="button1" onclick="document.location.href = `/design/book/personaltrainer.html`">Book a personal
             trainer
         </button>
-        <button class="button1" onclick="document.location.href = `/facilities.html`">Facilities</button>
-        <button class="button1" onclick="document.location.href = `/memberlogin.html`">Member login</button>
+        <button class="button1" onclick="document.location.href = `/design/facilities.html`">Facilities</button>
+        <button class="button1" onclick="document.location.href = `/design/memberlogin.html`">Member login</button>
     </nav>
 
 </div>
 <div id="media">
     <a href="index.html">
-        <img height="133" src="assets/gym.jpg" width="200" class="promo-image">
+        <img class="promo-image" height="133" src="assets/gym.jpg" width="200">
     </a>
 
 
@@ -54,11 +54,12 @@ The current date is ${getDate(new Date())}`)">
 <hr/>
 <div id="footer-div">
 
-    <button class="button footer-button" onclick="document.location.href = `contact.html`">Contact Us</button>
+    <a class="button footer-button" href="contact.html">Contact Us</a>
 
-    <button class="button footer-button" onclick="document.location.href = `newsletter.html`">Newsletter</button>
-    <button class="button footer-button" onclick="document.location.href = `contact.html`">Cookie Policy</button>
-    <button class="button footer-button" onclick="document.location.href = `contact.html`">Legal Stuff</button>
+    <a class="button footer-button" href="newsletter.html">Newsletter</a>
+    <a class="button footer-button" href="cookiepolicy.html">Cookie Policy</a>
+    <a class="button footer-button" href="legalstuff.html">Legal Stuff</a>
+    <a class="button footer-button" href="jobs.html">Jobs</a>
 
     <div id="social-media">
         <a class="fa fa-instagram" href="https://www.instagram.com/badstagram420/#"></a>
