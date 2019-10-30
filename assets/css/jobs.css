@@ -16,7 +16,7 @@ button {
     font-size: 20px;
     background-color: springgreen;
     border-color: springgreen;
-    padding:3px;
+    padding: 3px;
 }
 
 select {
@@ -41,7 +41,9 @@ div.job-form-div {
     margin-left: auto;
     margin-right: auto;
     display: inline-block;
-} {
+}
+
+{
     display: block;
     text-align: center;
 }

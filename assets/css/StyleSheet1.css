@@ -54,6 +54,10 @@ a {
 }
 
 @keyframes nav-button-hover {
+    from {
+        background-color: rgb(76, 176, 80);
+    }
+
     to {
         -webkit-transform: translate(0px, -5px);
         -ms-transform: translate(0px, -5px);
@@ -74,7 +78,7 @@ a {
 }
 
 .button1 {
-    background-color: #4CAF50;
+    background-color: rgb(76, 176, 80);
     border: none;
     color: white;
     padding: 20px;
@@ -176,7 +180,7 @@ a {
 }
 
 .button {
-    background: #414141;
+
     border-radius: 12px;
 }
 
